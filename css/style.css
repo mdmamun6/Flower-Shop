@@ -51,9 +51,11 @@ p{
 .section-description{
     text-align: center;
 }
+
+/* Banner Section Start Here */
 .header{
     background: #fceef1;
-    padding: 0px 130px;
+    padding: 0px 102px;
 }
 .banner{
     padding-top: 80px;
@@ -61,9 +63,6 @@ p{
 .banner-content{
     padding: 120px 0px 0px 20px;
     justify-content: space-between;
-}
-.banner-content h3{
-    color: #474747;
 }
 .banner-content h2{
     font-size: 60px;
@@ -97,27 +96,27 @@ p{
 .Featured-info-div{
     display: flex;
     justify-content: center;  
-    gap: 24px;
+    gap: 26px;
     padding-top: 60px;
 }
 .Featured-info-1 img{
-    width: 200px;
+    width: 251px;
     background: #f2dee7;
     padding: 50px 50px 0px 50px;
     border-radius: 50% 50% 0% 0%;
 }
-.Featured-info-2 img{
-    width: 227px;
+.Featured-info-2 img {
+    width: 277px;
     background: #d9eff1;
-    padding: 49px;
+    padding: 70px 40px 50px 40px;
     border-radius: 50% 50% 0% 0%;
-}
-.Featured-info-3 img{
-    width: 184px;
+  }
+  .Featured-info-3 img {
+    width: 232px;
     background: #e3ebdb;
     padding: 50px 50px 0px 50px;
     border-radius: 50% 50% 0% 0%;
-}
+  }
 .Featured-info-div h5{
     font-size: 16px;
     line-height: 26px;
@@ -126,3 +125,50 @@ p{
     text-decoration: underline;
     cursor: pointer;
 }
+.Featured-info-div-2{
+    background: #e3ebdb;
+    padding: 60px;
+    margin-top: 80px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;  
+    padding-top: 60px;
+}
+.Featured-info-div-2 h5{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 8px;
+}
+/* Featured Section End Here */
+
+/* Marketing Section Start Here! */
+.Marketing{
+    padding: 0px 102px;
+    background: #fef6f8;
+    text-align: center;
+}
+.Marketing .banner-content{
+    padding: 100px 0px 0px 0px;
+}
+.Marketing .banner-content h2{
+    font-size: 36px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.Marketing .images-file{
+    justify-content: center;
+    width: 250px;
+    padding-bottom: 0px;
+}
+/* Marketing Section End Here! */
+
+/* Marketing Section Start Here! */
+/* Marketing Section End Here! */
+
+/* Marketing Section Start Here! */
+/* Marketing Section End Here! */
+
+/* Marketing Section Start Here! */
+/* Marketing Section End Here! */
