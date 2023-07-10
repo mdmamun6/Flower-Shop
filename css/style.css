@@ -42,7 +42,7 @@ p{
     font-weight: 500;
     border: none;
     border-radius: 5px;
-    padding: 10px 25px;
+    padding: 12px 25px;
     cursor: pointer;
 }
 .section-title{
@@ -121,7 +121,7 @@ p{
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 15px;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -145,7 +145,7 @@ p{
 
 /* Marketing Section Start Here! */
 .Marketing{
-    padding: 0px 102px;
+    padding: 0px 102px 80px 102px;
     background: #fef6f8;
     text-align: center;
 }
@@ -164,11 +164,63 @@ p{
 }
 /* Marketing Section End Here! */
 
-/* Marketing Section Start Here! */
-/* Marketing Section End Here! */
+/* Instagram Section Start Here! */
+.Instagram-description{
+    padding: 130px;
+}
+.Instagram-description .section-title {
+    padding-bottom: 20px;
+  }
+.insta-item{
+    display: flex;
+    justify-content: space-between;  
+    gap: 26px;
+    padding-top: 60px;
+}
+.insta-item img{
+    width: 100%;
+}
 
-/* Marketing Section Start Here! */
-/* Marketing Section End Here! */
+/* Newsletter Start Here! */
+.Newsletter{
+    background: url("../img/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    padding: 80px;
+    border-radius: 5px;
+}
+.Subs-form{
+    text-align: center;
+    padding-top: 40px;
+}
+.Subs-form input{
+        width: 52%;
+        padding: 14px;
+        border: none;
+        border-radius: 5px;
+        margin-right: 8px;
+}
+/* Newsletter End Here! */
 
-/* Marketing Section Start Here! */
-/* Marketing Section End Here! */
+/* Instagram Section End Here! */
+
+/* Footer Section Start Here! */
+.footer{
+    padding: 130px;
+    background: #111010;
+}
+.footer-content{
+    color: #fff;
+    text-align: center;
+}
+.footer-content h2{
+    color: #fff;
+    padding-bottom: 25px;
+}
+.copyright{
+    color: #343434;
+    font-size: 14px;
+    padding-top: 25px;
+}
+/* Footer Section End Here! */
