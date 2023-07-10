@@ -9,12 +9,12 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
     color: #272727;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
 }
 p{
-    color: #272727;
+    color: #b6b6b6;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
@@ -37,14 +37,92 @@ p{
 }
 .btn-primary{
     color: #fff;
-    background: #FD6E0A;
-    font-size: 20px;
-    font-weight: 700;
+    background: #E55473;
+    font-size: 16px;
+    font-weight: 500;
     border: none;
     border-radius: 5px;
-    padding: 15px 35px;
+    padding: 10px 25px;
     cursor: pointer;
 }
 .section-title{
     text-align: center;
+}
+.section-description{
+    text-align: center;
+}
+.header{
+    background: #fceef1;
+    padding: 0px 130px;
+}
+.banner{
+    padding-top: 80px;
+}
+.banner-content{
+    padding: 120px 0px 0px 20px;
+    justify-content: space-between;
+}
+.banner-content h3{
+    color: #474747;
+}
+.banner-content h2{
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 30px 0px;
+}
+.banner-img{
+    text-align: center;
+}
+.images-file{
+    justify-content: center;
+    width: 450px;
+    padding-bottom: 0px;
+}
+/* Banner Section End Here! */
+
+/* Featured section start here */
+.Featured-description{
+    margin: 130px;
+    text-align: center;
+}
+.Featured-content{
+    padding: 0px 100px;
+}
+.Featured-description .section-title{
+    padding-bottom: 20px;
+}
+.Featured-info-div{
+    display: flex;
+    justify-content: center;  
+    gap: 24px;
+    padding-top: 60px;
+}
+.Featured-info-1 img{
+    width: 200px;
+    background: #f2dee7;
+    padding: 50px 50px 0px 50px;
+    border-radius: 50% 50% 0% 0%;
+}
+.Featured-info-2 img{
+    width: 227px;
+    background: #d9eff1;
+    padding: 49px;
+    border-radius: 50% 50% 0% 0%;
+}
+.Featured-info-3 img{
+    width: 184px;
+    background: #e3ebdb;
+    padding: 50px 50px 0px 50px;
+    border-radius: 50% 50% 0% 0%;
+}
+.Featured-info-div h5{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: underline;
+    cursor: pointer;
 }
