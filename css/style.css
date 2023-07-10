@@ -19,12 +19,6 @@ p{
     font-weight: 400;
     font-family: 'Lato', sans-serif;
 }
-.container{
-    width: 1140px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 200px 0px 200px;
-}
 .row{
     width: 100%;
     display: flex;
