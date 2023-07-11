@@ -32,11 +32,24 @@ p{
 .btn-primary{
     color: #fff;
     background: #E55473;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     border: none;
     border-radius: 5px;
     padding: 12px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn-secondary{
+    width: 118px;
+    color: #272727;
+    background: transparent;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 1px solid #272727;
+    padding-top: 12px;
     cursor: pointer;
 }
 .section-title{
@@ -99,7 +112,7 @@ li a{
     padding: 30px 0px;
 }
 .banner-img{
-    text-align: center;
+    text-align: right;
 }
 .images-file{
     justify-content: center;
@@ -113,6 +126,7 @@ li a{
 .Featured-description{
     margin: 130px;
     text-align: center;
+
 }
 .Featured-content{
     padding: 0px 100px;
@@ -155,7 +169,7 @@ li a{
 .Featured-info-div-2{
     background: #e3ebdb;
     padding: 60px;
-    margin-top: 80px;
+    margin-top: 130px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -167,6 +181,32 @@ li a{
     line-height: 26px;
     text-align: center;
     padding-top: 8px;
+}
+.Featured-info-div-3{
+    background: #e3ebdb;
+    padding: 80px;
+    margin-top: 80px;
+    border-radius: 5px;
+    display: flex;
+}
+.store-img{
+    background: #6a6e49;
+    padding: 60px;
+}
+.store-img img{
+    width: 350px;
+}
+.Featured-info-div-3 .Featured-content{
+    padding: 95px 0px 0px 80px;
+    text-align: left;
+}
+.Featured-info-div-3 .section-title{
+    text-align: left;
+}
+.Featured-info-div-3 .About-description{
+    color: #272727;
+    text-align: left;
+    padding: 30px 0px;
 }
 /* Featured Section End Here */
 
@@ -207,6 +247,51 @@ li a{
 .insta-item img{
     width: 100%;
 }
+/* Instasection end here! */
+
+/* Store section Start here! */
+.Store-info-div{
+    background: #e3ebdb;
+    padding: 0px;
+    margin-top: 130px;
+    border-radius: 5px;
+    display: flex;
+}
+.store-img-2{
+    background: #6a6e49;
+    padding: 80px;
+    border-radius: 5px 0px 0px 5px;
+}
+.store-img-2 img{
+    width: 384px;
+    border-radius: 50% 50% 0% 0%;
+}
+.Store-info-div .section-title{
+    text-align: left;
+}
+.Store-info-div .Featured-content {
+    padding: 150px 80px 0px 80px;
+  }
+.store-description{
+    color: #272727;
+    text-align: left;
+    line-height: 26px;
+    padding: 30px 0px;
+}
+.store-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 24;
+    text-align: left;
+    margin-top: 40px;
+}
+.store-info-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 24;
+    text-align: left;
+}
+/* Store Section End Here! */
 
 /* Newsletter Start Here! */
 .Newsletter{
@@ -230,7 +315,7 @@ li a{
 }
 /* Newsletter End Here! */
 
-/* Instagram Section End Here! */
+/* Instagram Div End Here! */
 
 /* Footer Section Start Here! */
 .footer{
