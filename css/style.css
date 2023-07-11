@@ -46,11 +46,43 @@ p{
     text-align: center;
 }
 
-/* Banner Section Start Here */
+/* Header Scetion Start Here! */
 .header{
     background: #fceef1;
     padding: 0px 102px;
 }
+.menu-container{
+    padding: 30px 20px;
+}
+.logo{
+    color: #272727;
+    font-size: 46px;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+.logo span{
+    color: #E55473;
+}
+.menu-items{
+    margin-left: 32px;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+li a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/* Banner Section Start Here */
 .banner{
     padding-top: 80px;
 }
@@ -75,6 +107,7 @@ p{
     padding-bottom: 0px;
 }
 /* Banner Section End Here! */
+/* Header Section End Here */
 
 /* Featured section start here */
 .Featured-description{
